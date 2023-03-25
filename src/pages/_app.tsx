@@ -1,9 +1,19 @@
-import { type AppType } from "next/dist/shared/lib/utils";
+import { type AppType } from "next/app";
 
-import "~/styles/globals.css";
+import { api } from "~/utils/api";
+import Layout from '~/components/Layout'
+import SEO from '~/components/SEO'
+
+import '~/styles/globals.css'
+
 
 const MyApp: AppType = ({ Component, pageProps }) => {
-  return <Component {...pageProps} />;
-};
+  return (
+    <Layout>
+      <SEO />
+      <Component {...pageProps} />
+    </Layout>
+  )
+}
 
-export default MyApp;
+export default api.withTRPC(MyApp);

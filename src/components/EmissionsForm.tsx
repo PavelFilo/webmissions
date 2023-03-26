@@ -1,21 +1,24 @@
 import { type FormEvent, useState } from 'react'
 
-export const GetEmissionsForm = () => {
-  const [email, setEmail] = useState<string>('')
-  const [clicked, setClicked] = useState<boolean>(false)
+import { Spinner } from './Spinner'
+
+interface IEmissionsFormProps {
+  mutate: (variables: { url: string }) => void
+  isLoading?: boolean
+  isClicked?: boolean
+}
+
+export const EmissionsForm = ({
+  mutate,
+  isLoading,
+  isClicked,
+}: IEmissionsFormProps) => {
+  const [url, setUrl] = useState<string>('')
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
-    setClicked(true)
-    fetch('api/update-notion', {
-      method: 'POST',
-      headers: {
-        'Content-type': 'application/json',
-      },
-      body: JSON.stringify({ email }),
-    }).catch(() => {
-      // do nothing
-    })
+
+    mutate({ url: url })
   }
 
   return (
@@ -29,16 +32,16 @@ export const GetEmissionsForm = () => {
         type="url"
         required
         placeholder="Type url here"
-        onChange={(e) => setEmail(e.target.value)}
+        onChange={(e) => setUrl(e.target.value)}
       />
       <button
         type="submit"
         className={`
-          ${clicked ? 'pointer-events-none	opacity-75' : ''}
+          ${isClicked ? 'pointer-events-none	opacity-75' : ''}
           rounded-r-lg border border-transparent bg-palette-primary py-3 px-4 text-sm font-semibold text-white hover:bg-palette-light focus:outline-none 
           focus-visible:ring-2 focus-visible:ring-palette-primary focus-visible:ring-offset-2 sm:text-base`}
       >
-        Get Emissions
+        {isLoading ? <Spinner /> : 'Get Emissions'}
       </button>
     </form>
   )

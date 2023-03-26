@@ -1,8 +1,12 @@
 import { type NextPage } from 'next'
 import Image from 'next/image'
-import { GetEmissionsForm } from '~/components/GetEmissionsForm'
+import { EmissionResults } from '~/components/EmissionResults'
+import { EmissionsForm } from '~/components/EmissionsForm'
+import { api } from '~/utils/api'
 
 const Home: NextPage = () => {
+  const { mutate, data, isLoading } = api.emissions.getEmissions.useMutation()
+
   return (
     <div className="relative h-screen w-screen bg-gradient-to-b">
       <Image
@@ -23,7 +27,19 @@ const Home: NextPage = () => {
             on the environment. Try it out now and take a step towards a more
             sustainable web!
           </p>
-          <GetEmissionsForm />
+
+          <EmissionsForm
+            mutate={mutate}
+            isClicked={!!data}
+            isLoading={isLoading}
+          />
+
+          {data && (
+            <EmissionResults
+              total={data.total}
+              emissionResults={data.emissionResults}
+            />
+          )}
         </div>
       </div>
     </div>

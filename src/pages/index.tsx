@@ -18,9 +18,9 @@ const Home: NextPage = () => {
             Calculate Your Web App&apos;s Carbon Footprint
           </h1>
           <p className="font-secondary  text-white md:text-lg lg:text-xl">
-            With just a few clicks, you can get an estimate of your web app's
-            carbon footprint and identify ways to reduce its impact on the
-            environment. Try it out now and take a step towards a more
+            With just a few clicks, you can get an estimate of your web
+            app&apos;s carbon footprint and identify ways to reduce its impact
+            on the environment. Try it out now and take a step towards a more
             sustainable web!
           </p>
           <GetEmissionsForm />

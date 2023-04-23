@@ -34,12 +34,7 @@ const Home: NextPage = () => {
             isLoading={isLoading}
           />
 
-          {data && (
-            <EmissionResults
-              total={data.total}
-              emissionResults={data.emissionResults}
-            />
-          )}
+          {data && <EmissionResults data={data} />}
         </div>
       </div>
     </div>

@@ -1,0 +1,2064 @@
+[
+    "https://featured.nextretreat.com/",
+    "https://www.featured.nextretreat.com/",
+    "https://www.featured.nextretreat.com/_next/static/css/4708260490fc1158.css",
+    "https://www.featured.nextretreat.com/_next/static/css/30fd6dae99bf48e4.css",
+    "https://www.featured.nextretreat.com/_next/static/chunks/webpack-f701d5e2843d3e66.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/framework-2c79e2a64abdb08b.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/main-4dcb7f9b52833aba.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/pages/_app-fb411b68769f7b05.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/1d55616c-eb533e304b963ab2.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/312-fdc63318412f92cd.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/327-125703785705bf79.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/143-421d512a45ed500d.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/pages/index-3882fc8dabcdbe68.js",
+    "https://www.featured.nextretreat.com/_next/static/jGAPhXMLJ-Nth87hWfl2M/_buildManifest.js",
+    "https://www.featured.nextretreat.com/_next/static/jGAPhXMLJ-Nth87hWfl2M/_ssgManifest.js",
+    {
+        "url": "https://www.featured.nextretreat.com/",
+        "requestHeaders": {
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+        },
+        "responseHeaders": {
+            "cache-control": "s-maxage=31536000, stale-while-revalidate",
+            "content-encoding": "gzip",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Sun, 23 Apr 2023 15:08:13 GMT",
+            "etag": "\"z7m2cavknp1eay\"",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "lJSVwnWWX4zDWpQJPp3eAAvqM0bX4Pz8PgmtqSN0NAcnABAUOXvpGg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront",
+            "x-nextjs-cache": "HIT",
+            "x-powered-by": "Next.js"
+        },
+        "responseBodySize": 65267
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/jGAPhXMLJ-Nth87hWfl2M/_ssgManifest.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-length": "117",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:13 GMT",
+            "etag": "W/\"75-187ae9f4b23\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:07 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "mnBSFohUy3X6EBZHmTTJe9yVZf6Wt-QLaAK5Dh-nv4uasBtsoxY-qQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseSize": "117",
+        "responseBodySize": 117
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/css/4708260490fc1158.css",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "text/css,*/*;q=0.1"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "text/css; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:13 GMT",
+            "etag": "W/\"6a9a-187ae9f4b23\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:07 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "af-v1vOzCCfgn1zYzqOWLBL55RdbBHaFR2pAexx4bCx43PIgm0beiQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 27290
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/327-125703785705bf79.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:13 GMT",
+            "etag": "W/\"3122-187ae9f4b17\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:07 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "N68RJffhB5V998ZyO68Ip0Qf8mY6whX6Et8Z35wTtXx-drR5T02X9Q==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 12578
+    },
+    "https://www.featured.nextretreat.com/_next/static/media/cottage-by-the-lake.2a472768.webp",
+    "https://www.featured.nextretreat.com/_next/static/media/underline.c5925527.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/arrow-down.7c8a762c.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/ImageFallbackNR.42bde5d9.jpeg",
+    "https://www.featured.nextretreat.com/_next/static/media/logo-next-retreat.6431f0e8.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/arrowhead.inline.2f4a6cbf.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/green-star.eb1dbd7a.svg",
+    "https://cdn.nextretreat.com/venues/6639073/a52d249339a8c0aa94245ae17803664ee46b4a6e.jpg?format=webp&w=720",
+    "https://www.featured.nextretreat.com/_next/static/media/house.5bf03a0e.svg",
+    "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Fes.png%3Fformat%3Dwebp&w=16&q=75",
+    "https://cdn.nextretreat.com/venues/7075537/debdd2420c935fc20e333994a247fc9c58b778c2.jpg?format=webp&w=720",
+    "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Fit.png%3Fformat%3Dwebp&w=16&q=75",
+    "https://cdn.nextretreat.com/venues/7272499/c01b92141ac6248daa932b4e3b188b421bcd7e91.jpg?format=webp&w=720",
+    "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Fch.png%3Fformat%3Dwebp&w=16&q=75",
+    "https://www.featured.nextretreat.com/_next/static/media/teambuildings.12af8597.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/retreats.23c1f9b5.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/offsites.06ed97ed.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/meetups.61b668d4.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/workation.bb5d3a5b.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/hackathlon.07929bf2.svg",
+    "https://cdn.nextretreat.com/venues/7272500/f616388e5a9ad7733dd362095156038355a4d94a.jpeg?format=webp&w=720",
+    "https://cdn.nextretreat.com/venues/7272501/25ff8ad85dce006b1d3d67dbd18777e29240ef8b.jpeg?format=webp&w=720",
+    "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Ffr.png%3Fformat%3Dwebp&w=16&q=75",
+    "https://cdn.nextretreat.com/venues/7272502/d422ccdbe684c1a4dc312fcc723834a2240041a9.jpg?format=webp&w=720",
+    "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Fgr.png%3Fformat%3Dwebp&w=16&q=75",
+    "https://cdn.nextretreat.com/venues/7412994/259acc77df3df1dfc881d1c659f33a2d8d110f9e.jpg?format=webp&w=720",
+    "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Fus.png%3Fformat%3Dwebp&w=16&q=75",
+    "https://cdn.nextretreat.com/venues/7412995/8e277a5d330a8a8af02f25869a017542fb8333ba.jpg?format=webp&w=720",
+    "https://cdn.nextretreat.com/venues/7412996/f00eee2911fde2a40a065616cc57c2fb7c3871d0.jpg?format=webp&w=720",
+    "https://www.featured.nextretreat.com/_next/static/media/cm-commerce.58f40230.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/hotjar.7569bff6.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/wetravel.2d5dbf91.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/graphcms.6c2eee66.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/brainbot.e5765f3b.svg",
+    "https://www.featured.nextretreat.com/_next/static/media/apiax.d2f4ae32.svg",
+    "https://cdn.nextretreat.com/venues/7412997/d6b95191b4976f6e577013f96b1c0f9e0263da02.jpg?format=webp&w=720",
+    "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Fhu.png%3Fformat%3Dwebp&w=16&q=75",
+    "https://cdn.nextretreat.com/venues/7619719/4e99e48847d8ff48e9e15efc24f34970c7bf63a4.jpg?format=webp&w=720",
+    "https://cdn.nextretreat.com/venues/7619720/cf687b66ee60f34240484b51adfdf4df7bac57e7.jpeg?format=webp&w=720",
+    "https://cdn.nextretreat.com/venues/7619721/36f2b1d180fa3b99863f5d49e2fb4afcddd4f291.jpg?format=webp&w=720",
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/framework-2c79e2a64abdb08b.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:13 GMT",
+            "etag": "W/\"226fc-187ae9f4cde\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:08 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "FLLN7pfSOIkhVMBnbeMJ-L65kCuwaCvLxrU0GnAJTVLgiNQGgF9wXg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 141052
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/css/30fd6dae99bf48e4.css",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "text/css,*/*;q=0.1"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "text/css; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:13 GMT",
+            "etag": "W/\"55f3-187ae9f3f7f\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:04 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "2ZDVifuKRgq9mdMqsB-Z5DAatB90Sg95vcVYOcWuHHydUWf9lbx85w==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 22003
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/pages/index-3882fc8dabcdbe68.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:13 GMT",
+            "etag": "W/\"c8f-187ae9f50a8\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "d3VsBRt_xDUKqdm08oFTRd6kKc0ia_1YziLLRfUt8w44i9AswnNtww==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 3215
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/jGAPhXMLJ-Nth87hWfl2M/_buildManifest.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:13 GMT",
+            "etag": "W/\"434-187ae9f50a8\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "2tU-za9gJBPDXjaWQxZerIsjWvs4fig1DRgIyTO7yCWdNauOoMJSmg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 1076
+    },
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WB7VMZQ",
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/pages/_app-fb411b68769f7b05.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:13 GMT",
+            "etag": "W/\"5f8-187ae9f50d3\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "Ewzu0XQMtIlV-NCQX3s6v3oM43LKQ6swTQ-RHR7mMOnM7zJ2gnOrrg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 1528
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/main-4dcb7f9b52833aba.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:13 GMT",
+            "etag": "W/\"16229-187ae9f50f5\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "1Sxz_fdb9qvZkf41Xr7c3dHb-CCDUd7OXzyq5jriB-QQY1KRaYTJmA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 90665
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/312-fdc63318412f92cd.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:14 GMT",
+            "etag": "W/\"a730-187ae9f50d6\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "iRpzAd75X1Srwm4pOVuDfTJjW0EHmY_msDJRQ_6M1WGBSMIz__NBWA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 42800
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/webpack-f701d5e2843d3e66.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:14 GMT",
+            "etag": "W/\"d9a-187ae9f50de\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "PL9si_d3UaOCcwhXntWgRh-B6YqeSvDVZUt5FErcBiMUQITlHus69A==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 3482
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/143-421d512a45ed500d.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:14 GMT",
+            "etag": "W/\"287a-187ae9f50d6\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "TuvPDrCW60voxXxVMgjGe0JNRJEDTdzwHF8iCO07vtrOypMScpqMcA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 10362
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/1d55616c-eb533e304b963ab2.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:14 GMT",
+            "etag": "W/\"44e15-187ae9f50d6\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "ki-4Vkip_0OXlPzB4yYo5_csqinoJ9NDb-dE9M78auZTX1TppPlD-w==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 282133
+    },
+    "https://www.featured.nextretreat.com/_next/static/media/hamburger.inline.0525c9b6.svg",
+    "https://www.featured.nextretreat.com/_next/data/jGAPhXMLJ-Nth87hWfl2M/venue/6639073.json?venueId=6639073",
+    "https://www.featured.nextretreat.com/_next/static/chunks/a4c92b5b-c6c6fbab5c726ef7.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/7d0bf13e-7cac07e438bf2a63.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/885-c025aab845bb0f04.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/pages/venue/%5BvenueId%5D-b505c0a13f40b6ff.js",
+    "https://www.featured.nextretreat.com/_next/data/jGAPhXMLJ-Nth87hWfl2M/venue/7075537.json?venueId=7075537",
+    {
+        "url": "https://cdn.nextretreat.com/venues/6639073/a52d249339a8c0aa94245ae17803664ee46b4a6e.jpg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "373214",
+            "cache-control": "max-age=31536000",
+            "content-length": "211636",
+            "content-type": "image/webp",
+            "date": "Wed, 19 Apr 2023 07:28:02 GMT",
+            "etag": "\"5a461b101103e6a8798a1d6c592fb654\"",
+            "last-modified": "Thu, 21 Jul 2022 07:24:20 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "G37JO2sj5h_e5d7UYZucYkK01biAuztvOhtY780eLQJDlI0dQX8L8g==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "211636",
+        "responseBodySize": 211636
+    },
+    "https://www.featured.nextretreat.com/_next/static/chunks/a4c92b5b-c6c6fbab5c726ef7.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/7d0bf13e-7cac07e438bf2a63.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/885-c025aab845bb0f04.js",
+    "https://www.featured.nextretreat.com/_next/static/chunks/pages/venue/%5BvenueId%5D-b505c0a13f40b6ff.js",
+    "https://www.featured.nextretreat.com/_next/static/css/30fd6dae99bf48e4.css",
+    "https://www.featured.nextretreat.com/_next/static/css/d224557c362ea826.css",
+    {
+        "url": "https://cdn.nextretreat.com/venues/7075537/debdd2420c935fc20e333994a247fc9c58b778c2.jpg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "373214",
+            "cache-control": "max-age=31536000",
+            "content-length": "179580",
+            "content-type": "image/webp",
+            "date": "Wed, 19 Apr 2023 07:28:02 GMT",
+            "etag": "\"77d4b846e54058d14048da11195b4bc7\"",
+            "last-modified": "Thu, 21 Jul 2022 07:24:18 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "fDQXoePxOpr5Yo4gSE1GBFkvslFIlfi4_WP43qYgSZYBwj_D7POHOA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "179580",
+        "responseBodySize": 179580
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/css/30fd6dae99bf48e4.css",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "date": "Sun, 23 Apr 2023 15:08:13 GMT",
+            "content-encoding": "gzip",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "last-modified": "Sun, 23 Apr 2023 14:58:04 GMT",
+            "server": "CloudFront",
+            "x-amz-cf-pop": "VIE50-C2",
+            "etag": "W/\"55f3-187ae9f3f7f\"",
+            "vary": "Accept-Encoding",
+            "x-cache": "Miss from cloudfront",
+            "content-type": "text/css; charset=UTF-8",
+            "cache-control": "public, max-age=31536000, immutable",
+            "accept-ranges": "bytes",
+            "x-amz-cf-id": "2ZDVifuKRgq9mdMqsB-Z5DAatB90Sg95vcVYOcWuHHydUWf9lbx85w=="
+        },
+        "responseBodySize": 22003
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/underline.c5925527.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/_next/static/css/4708260490fc1158.css",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-length": "406",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "etag": "W/\"196-187ae9f50e6\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "aerYt7ONOU4P6ZpvXdCj2AMJ0RKyvYaSSgN_C3zfGzz48DCnKt7FGA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseSize": "406",
+        "responseBodySize": 406
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/arrow-down.7c8a762c.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/_next/static/css/4708260490fc1158.css",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-length": "171",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "etag": "W/\"ab-187ae9f5109\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "_GOGcwl-tZLjP0OUAkg9bffk4k51dltsbFKD-lqdmM9EWcGtlaa6Kg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseSize": "171",
+        "responseBodySize": 171
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/green-star.eb1dbd7a.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-length": "241",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "etag": "W/\"f1-187ae9f50e2\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "iZvTV8qPunU74UFBmUup4k_MyfkKSmbjGjLcnDBmbNAl22AI7cobwQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseSize": "241",
+        "responseBodySize": 241
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/arrowhead.inline.2f4a6cbf.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-length": "236",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "etag": "W/\"ec-187ae9f50d3\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "8roGlZS7vUc_8Wdt6uYgFKqbH9NMr3WmfxLfWXmCEaEG2CTfR3BbTw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseSize": "236",
+        "responseBodySize": 236
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/ImageFallbackNR.42bde5d9.jpeg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/_next/static/css/4708260490fc1158.css",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-length": "5853",
+            "content-type": "image/jpeg",
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "etag": "W/\"16dd-187ae9f5109\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "M6xcjp4dcvY18yN2Yit_aK5ug2bu93Ig-bmL3bZv5KF2N5Dok3BMlQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseSize": "5853",
+        "responseBodySize": 5853
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/cottage-by-the-lake.2a472768.webp",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/_next/static/css/4708260490fc1158.css",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-length": "50780",
+            "content-type": "image/webp",
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "etag": "W/\"c65c-187ae9f50e2\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "_08t0cyuS8hT4agYfPX1JVTHyed7vdLKLNNTlRinDT0ZZbLp1C95mg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseSize": "50780",
+        "responseBodySize": 50780
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/logo-next-retreat.6431f0e8.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "etag": "W/\"185f-187ae9f5109\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "8I1vnrAMKA_wP7hErzSmjDmHJEfXZFQ7VugTOd7FEdlDQGvY11FdAQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 6239
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/hamburger.inline.0525c9b6.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-length": "276",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "etag": "W/\"114-187ae9f50e2\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "zVYfjskYaxtrW9OfTqiLWDxfEFQw1io1VDo81rBV4ShgilGXJ-E1Pg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseSize": "276",
+        "responseBodySize": 276
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/css/d224557c362ea826.css",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "text/css; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "etag": "W/\"3419-187ae9f50de\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "rKQElPRh359W44B42vCu67KfKAGvXiJFzY6e4Iv0K70r09NM7gK2ew==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 13337
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/house.5bf03a0e.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "etag": "W/\"4f4-187ae9f50e2\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "1mRar3MC14vTKCF0GJDIsQVycV6jcj8nqmYciHV2-7BYTi5xDb46eg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 1268
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Fes.png%3Fformat%3Dwebp&w=16&q=75",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "server": "CloudFront",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "lqLAROifrVl0AB2kfAyp7HZHN-A6KL25D4GSbxIi8lX9sRuxs3gOuQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Error from cloudfront"
+        },
+        "responseBodySize": 21
+    },
+    {
+        "url": "https://cdn.nextretreat.com/venues/7272499/c01b92141ac6248daa932b4e3b188b421bcd7e91.jpg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "445978",
+            "cache-control": "max-age=31536000",
+            "content-length": "177856",
+            "content-type": "image/webp",
+            "date": "Tue, 18 Apr 2023 11:15:18 GMT",
+            "etag": "\"5f063719125279f4c3a3c674117f50de\"",
+            "last-modified": "Thu, 21 Jul 2022 07:24:18 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "jLW_AA--MEa2HdnY7tk-NkbuM0JITbLCKYjtvhsjhtoMCIBfPYuxtA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "177856",
+        "responseBodySize": 177856
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Fit.png%3Fformat%3Dwebp&w=16&q=75",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "server": "CloudFront",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "WlrwtDeBYoMTDpCGtwEP_JpRCCUpM0IOV95_2ZndR8p1w4RYACcqGg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Error from cloudfront"
+        },
+        "responseBodySize": 21
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Fch.png%3Fformat%3Dwebp&w=16&q=75",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "date": "Sun, 23 Apr 2023 15:08:15 GMT",
+            "server": "CloudFront",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "nRnHRSbMqbzeHvwkZ7UWwJHZMhoMBAZlnXA5Gva0pophtliLZ-67Vg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Error from cloudfront"
+        },
+        "responseBodySize": 21
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/teambuildings.12af8597.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"5e0-187ae9f50e6\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "tRQEujiL7l9h7442HHoONzD5izrZ88BXCDVZHpzupT2VzAWedbMzBQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 1504
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/retreats.23c1f9b5.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-length": "833",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"341-187ae9f50e6\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "P4Yl6KeVsOxXl9CMawiZ1TGj2yYqcDh_7rFhZSYZlGJTVRy_hEyu4A==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseSize": "833",
+        "responseBodySize": 833
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/data/jGAPhXMLJ-Nth87hWfl2M/venue/7075537.json?venueId=7075537",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "purpose": "prefetch",
+            "x-nextjs-data": "1",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "cache-control": "s-maxage=31536000, stale-while-revalidate",
+            "content-encoding": "gzip",
+            "content-type": "application/json",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "\"nzsofauh1ba0c\"",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "Elv3XhhbrWqv64XXaOusxykbuDz-RzuVPEInoJ2oA574Q68v0jQiTA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront",
+            "x-nextjs-cache": "HIT",
+            "x-nextjs-matched-path": "/venue/[venueId]"
+        },
+        "responseBodySize": 12974
+    },
+    {
+        "url": "https://cdn.nextretreat.com/venues/7272500/f616388e5a9ad7733dd362095156038355a4d94a.jpeg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "546313",
+            "cache-control": "max-age=31536000",
+            "content-length": "97560",
+            "content-type": "image/webp",
+            "date": "Mon, 17 Apr 2023 07:23:04 GMT",
+            "etag": "\"40b5db1c7c054cc80cb5129a336d969a\"",
+            "last-modified": "Thu, 21 Jul 2022 08:07:48 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "HgcEYG5tQQxroTk_TW5XJ6P1rv6fJyd3hNHEjBXtwmidb7Sphi6VJQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "97560",
+        "responseBodySize": 97560
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/data/jGAPhXMLJ-Nth87hWfl2M/venue/6639073.json?venueId=6639073",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "purpose": "prefetch",
+            "x-nextjs-data": "1",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "cache-control": "s-maxage=31536000, stale-while-revalidate",
+            "content-encoding": "gzip",
+            "content-type": "application/json",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "\"w7u4en8tf46zy\"",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "GVNiho5Ya538dd9U-U8BOLYI1g3a54BliCkggWYP4f94y54VUqvzSw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront",
+            "x-nextjs-cache": "HIT",
+            "x-nextjs-matched-path": "/venue/[venueId]"
+        },
+        "responseBodySize": 9071
+    },
+    {
+        "url": "https://cdn.nextretreat.com/venues/7272501/25ff8ad85dce006b1d3d67dbd18777e29240ef8b.jpeg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "82182",
+            "cache-control": "max-age=31536000",
+            "content-length": "172204",
+            "content-type": "image/webp",
+            "date": "Sat, 22 Apr 2023 16:18:33 GMT",
+            "etag": "\"6dec1bd8069945862f6f444dd85b9ad4\"",
+            "last-modified": "Thu, 21 Jul 2022 08:07:48 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "JlOV36bdrLa1iTPmf6P7jk7fx4VYOdLwwmX1JqydTWY0qesmgAU06g==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "172204",
+        "responseBodySize": 172204
+    },
+    {
+        "url": "https://cdn.nextretreat.com/venues/7272502/d422ccdbe684c1a4dc312fcc723834a2240041a9.jpg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "373215",
+            "cache-control": "max-age=31536000",
+            "content-length": "53036",
+            "content-type": "image/webp",
+            "date": "Wed, 19 Apr 2023 07:28:02 GMT",
+            "etag": "\"c23b2ebb504f80812689ee4d7f1e9001\"",
+            "last-modified": "Thu, 21 Jul 2022 08:07:48 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "1VcnNb40hSE0WOE3MeULzUzUxsmORbqXsesSYbZ1JujswCLzlxBHew==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "53036",
+        "responseBodySize": 53036
+    },
+    {
+        "url": "https://cdn.nextretreat.com/venues/7412994/259acc77df3df1dfc881d1c659f33a2d8d110f9e.jpg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "82181",
+            "cache-control": "max-age=31536000",
+            "content-length": "774740",
+            "content-type": "image/webp",
+            "date": "Sat, 22 Apr 2023 16:18:34 GMT",
+            "etag": "\"fafce1df51f69102c1ea62f12139fc4f\"",
+            "last-modified": "Thu, 21 Jul 2022 08:07:54 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "gbXytOFQGePAsmUWwD2Kr9LuFAMV4lMHsbs_T_coOpvhFKUh0oOS7A==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "774740",
+        "responseBodySize": 774740
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/meetups.61b668d4.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-length": "916",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"394-187ae9f5109\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "_urvvsE0wFLPwdKz7L-PgCUIxshUl1he8WjPn9nFlQg5o2tZNtJlpQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseSize": "916",
+        "responseBodySize": 916
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/offsites.06ed97ed.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"4b5-187ae9f50db\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "sencFk5yfQhjmxI7omCkBWOO16hU8JqZlIK8EZr-NiYQYZteAt4Jjw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 1205
+    },
+    {
+        "url": "https://cdn.nextretreat.com/venues/7412995/8e277a5d330a8a8af02f25869a017542fb8333ba.jpg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "373214",
+            "cache-control": "max-age=31536000",
+            "content-length": "181018",
+            "content-type": "image/webp",
+            "date": "Wed, 19 Apr 2023 07:28:02 GMT",
+            "etag": "\"51cf3b21350d64da052fe1b4a832d71f\"",
+            "last-modified": "Thu, 21 Jul 2022 08:09:04 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "jIJANttvA_QFPyxIA7gSdr-vxvF5E7-vP3XRSYE8PJKZMwEAHYQopA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "181018",
+        "responseBodySize": 181018
+    },
+    {
+        "url": "https://cdn.nextretreat.com/venues/7412996/f00eee2911fde2a40a065616cc57c2fb7c3871d0.jpg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "546313",
+            "cache-control": "max-age=31536000",
+            "content-length": "172402",
+            "content-type": "image/webp",
+            "date": "Mon, 17 Apr 2023 07:23:04 GMT",
+            "etag": "\"613e00f20ed70de8e1b91c6c9a8d78da\"",
+            "last-modified": "Thu, 21 Jul 2022 08:09:04 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "B6FhCL7KoWSGviuZ-9g7kEfTzYYGXHR9KBJiH6pPg1MrUdL9VxKerA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "172402",
+        "responseBodySize": 172402
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/workation.bb5d3a5b.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-length": "803",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"323-187ae9f50db\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "QsJMlcQ3YhaSFvVl07Wl5nwqdDqGBoPLBjSpRtCbzRcIy0uT5Hjh3Q==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseSize": "803",
+        "responseBodySize": 803
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/hackathlon.07929bf2.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-length": "624",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"270-187ae9f5109\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "M7-6I0oi6iOJZaY22_CWqFvevMf0r4msqqdQPx35nNCay3hLWLytyw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseSize": "624",
+        "responseBodySize": 624
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Ffr.png%3Fformat%3Dwebp&w=16&q=75",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "server": "CloudFront",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "NCujMI53SHd1BMA1bE8BSUS3Q4JMP4pzBIIs3w-6BEinfC_sH0kdxw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Error from cloudfront"
+        },
+        "responseBodySize": 21
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Fgr.png%3Fformat%3Dwebp&w=16&q=75",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "server": "CloudFront",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "V4nBQXwaUah3zVv8mPNxRQsq2BpeRxjhM9J6KU8oJuNJCyBepJE-yQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Error from cloudfront"
+        },
+        "responseBodySize": 21
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Fus.png%3Fformat%3Dwebp&w=16&q=75",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "server": "CloudFront",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "qZknVLvP5lauiIsgCNsc9QUDu-fj7hRiEzARL7yupOuws6f3wQ7Gnw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Error from cloudfront"
+        },
+        "responseBodySize": 21
+    },
+    {
+        "url": "https://cdn.nextretreat.com/venues/7412997/d6b95191b4976f6e577013f96b1c0f9e0263da02.jpg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "82167",
+            "cache-control": "max-age=31536000",
+            "content-length": "84004",
+            "content-type": "image/webp",
+            "date": "Sat, 22 Apr 2023 16:18:50 GMT",
+            "etag": "\"693ac6d7ec17b6f476d3711608188554\"",
+            "last-modified": "Thu, 21 Jul 2022 08:09:04 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "VRyRkusyMmVEWGTOD9yTEEBBoXuHzxUnzhCF4ZnnqQvJ443v0JsoGA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "84004",
+        "responseBodySize": 84004
+    },
+    {
+        "url": "https://cdn.nextretreat.com/venues/7619719/4e99e48847d8ff48e9e15efc24f34970c7bf63a4.jpg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "546312",
+            "cache-control": "max-age=31536000",
+            "content-length": "129244",
+            "content-type": "image/webp",
+            "date": "Mon, 17 Apr 2023 07:23:05 GMT",
+            "etag": "\"057b23db694e9c83398f1c94326a6201\"",
+            "last-modified": "Thu, 21 Jul 2022 08:09:05 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "vCD98EJYTMuUviLnkD1Qepj_c8sD6qb3V2RUUuraRkMR61KhmQBnYA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "129244",
+        "responseBodySize": 129244
+    },
+    {
+        "url": "https://cdn.nextretreat.com/venues/7619720/cf687b66ee60f34240484b51adfdf4df7bac57e7.jpeg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "82165",
+            "cache-control": "max-age=31536000",
+            "content-length": "228028",
+            "content-type": "image/webp",
+            "date": "Sat, 22 Apr 2023 16:18:52 GMT",
+            "etag": "\"835ee09f1c5e466f444d986e5c005bfb\"",
+            "last-modified": "Thu, 21 Jul 2022 08:09:05 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "lXWsupld9LCLSXfEhsS5SlmwrxHDpydfZJJqURhcP5WLeEbBZ6y03Q==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "228028",
+        "responseBodySize": 228028
+    },
+    {
+        "url": "https://cdn.nextretreat.com/venues/7619721/36f2b1d180fa3b99863f5d49e2fb4afcddd4f291.jpg?format=webp&w=720",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "age": "82165",
+            "cache-control": "max-age=31536000",
+            "content-length": "183138",
+            "content-type": "image/webp",
+            "date": "Sat, 22 Apr 2023 16:18:52 GMT",
+            "etag": "\"92468f08e6c9baff3d3ef411f20bac3c\"",
+            "last-modified": "Thu, 21 Jul 2022 08:09:05 GMT",
+            "server": "AmazonS3",
+            "via": "1.1 881b12332738e10f6e80298fbdcd7e8e.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "4XGtSQukewuojw9FLOTo6xDH0Q0Qim4u7WaXtRhvovtRSJjgytlGrA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseSize": "183138",
+        "responseBodySize": 183138
+    },
+    {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WB7VMZQ",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "access-control-allow-credentials": "true",
+            "access-control-allow-headers": "Cache-Control",
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "cache-control": "private, max-age=900",
+            "content-encoding": "br",
+            "content-length": "90391",
+            "content-type": "application/javascript; charset=UTF-8",
+            "cross-origin-resource-policy": "cross-origin",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "expires": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "server": "Google Tag Manager",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "vary": "Accept-Encoding",
+            "x-xss-protection": "0"
+        },
+        "responseSize": "90391",
+        "responseBodySize": 287028
+    },
+    "https://cookiehub.net/c2/225097fe.js",
+    "https://pagead2.googlesyndication.com/pagead/landing?gcs=G100&gcd=G100&rnd=1402963810.1682262497&url=https%3A%2F%2Fwww.featured.nextretreat.com%2F&gtm=45He34j0n81WB7VMZQ",
+    "https://www.googletagmanager.com/gtag/js?id=G-6KWZCKDCC1&l=dataLayer&cx=c",
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/cm-commerce.58f40230.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"152da-187ae9f50d7\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "FI_9IqKVVOIyB-prq1nvsAvci-fBwvaSSGFyUPHML3IOZkg-B1DiFg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 86746
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/hotjar.7569bff6.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"2ef4-187ae9f5109\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "FFLzAwNzF7SL97B9pnshe461Qz0-k5w84MrzOR8MINXxsWPkWPC3VA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 12020
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/brainbot.e5765f3b.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"3d10-187ae9f50de\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "4ZxMWTeqCwILhT5F4drgYvHglpuT0I8Eofjl_bNpTma3YfiM_sYMkg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 15632
+    },
+    "https://cookiehub.net/region",
+    {
+        "url": "https://cookiehub.net/c2/225097fe.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "age": "8742",
+            "cache-control": "max-age=86400",
+            "content-encoding": "br",
+            "content-type": "application/javascript",
+            "date": "Sun, 23 Apr 2023 12:42:35 GMT",
+            "etag": "W/\"75493b6465bd8f3ea33e9490ec3359b3\"",
+            "last-modified": "Thu, 13 Apr 2023 21:13:07 GMT",
+            "server": "AmazonS3",
+            "vary": "Accept-Encoding\nOrigin",
+            "via": "1.1 47b3fa796fd76d32bef114d0b8ce8cac.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "Iy42_ZelkSyH-7lyYAoLGmj84QCGKeF5wViwp8Ag77dwOpeW50TrZw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-amz-server-side-encryption": "AES256",
+            "x-amz-version-id": "akNU0.Kcq0LKyH2bKzUBrsaPw3iiA0cB",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseBodySize": 86992
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/graphcms.6c2eee66.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"3467-187ae9f50d7\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "6jc416dh0Z-nGDqOobn5qMR0WXUHtQ_SKWnhedT1YyvFYIBButnWGg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 13415
+    },
+    "https://region1.google-analytics.com/g/collect?v=2&tid=G-6KWZCKDCC1&gtm=45je34j0&_p=1015460908&gcs=G100&cid=1041621691.1682262497&ul=en-us&sr=1440x900&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1682262496&sct=1&seg=0&dl=https%3A%2F%2Fwww.featured.nextretreat.com%2F&dt=NextRetreat%20%7C%20Featured%20Venues%20%7C%20Hand-picked%20locations%20for%20team%20retreats&en=page_view&_fv=1&_nsi=1&_ss=1",
+    {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-6KWZCKDCC1&l=dataLayer&cx=c",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "access-control-allow-credentials": "true",
+            "access-control-allow-headers": "Cache-Control",
+            "access-control-allow-origin": "*",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "cache-control": "private, max-age=900",
+            "content-encoding": "br",
+            "content-length": "79411",
+            "content-type": "application/javascript; charset=UTF-8",
+            "cross-origin-resource-policy": "cross-origin",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "expires": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "server": "Google Tag Manager",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "vary": "Accept-Encoding",
+            "x-xss-protection": "0"
+        },
+        "responseSize": "79411",
+        "responseBodySize": 228852
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/wetravel.2d5dbf91.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"c93d-187ae9f5111\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "9XP_g9f6tbVu98LYjQ1vsagWsr2w5CeJQpEdHjLgRlcUn_7eyLlkRw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 51517
+    },
+    {
+        "url": "https://pagead2.googlesyndication.com/pagead/landing?gcs=G100&gcd=G100&rnd=1402963810.1682262497&url=https%3A%2F%2Fwww.featured.nextretreat.com%2F&gtm=45He34j0n81WB7VMZQ",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*",
+            "origin": "https://www.featured.nextretreat.com"
+        },
+        "responseHeaders": {
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "cache-control": "no-cache, no-store, must-revalidate",
+            "content-length": "42",
+            "content-security-policy": "script-src 'none'; object-src 'none'",
+            "content-type": "image/gif",
+            "cross-origin-resource-policy": "cross-origin",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+            "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+            "pragma": "no-cache",
+            "server": "cafe",
+            "timing-allow-origin": "*",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "0"
+        },
+        "responseSize": "42",
+        "responseBodySize": 42
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/image?url=https%3A%2F%2Fcdn.nextretreat.com%2Fcommon%2Fflags%2Fhu.png%3Fformat%3Dwebp&w=16&q=75",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "server": "CloudFront",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "VbVpI9CZY80z2Sr6I1vwcwg_XfZQis57CCxn-BigRVXbUxjPKjkcIA==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Error from cloudfront"
+        },
+        "responseBodySize": 21
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/media/apiax.d2f4ae32.svg",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "image/svg+xml",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"4648-187ae9f50d3\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "GtijjXd8eDQHp80UAkd31jXSnyVehesi_5I-b8225nwzRtZqxcD7pg==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 17992
+    },
+    "https://cookiehub.net/region",
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/pages/venue/%5BvenueId%5D-b505c0a13f40b6ff.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"9cb7-187ae9f50de\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "9uJjHrVp_SYxh5uk_8zCqjg_FhKWpka_BgPQeFB1vDl866gX5uxTdw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 0
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/pages/venue/%5BvenueId%5D-b505c0a13f40b6ff.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"9cb7-187ae9f50de\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "9uJjHrVp_SYxh5uk_8zCqjg_FhKWpka_BgPQeFB1vDl866gX5uxTdw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 40119
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/7d0bf13e-7cac07e438bf2a63.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"219c3-187ae9f50cf\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "TLQm5CaAcFL6T8WPvwcvMigi_75wtdhR0CRafssG4rD02hbPlr2Q5A==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 0
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/7d0bf13e-7cac07e438bf2a63.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"219c3-187ae9f50cf\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "TLQm5CaAcFL6T8WPvwcvMigi_75wtdhR0CRafssG4rD02hbPlr2Q5A==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 137667
+    },
+    "https://cookiehub.net/c2/css/225097fe.css",
+    {
+        "url": "https://cookiehub.net/region",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "content-type": "application/x-www-form-urlencoded",
+            "referer": "https://www.featured.nextretreat.com/",
+            "cookiehub-regions": "G0,US",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*",
+            "origin": "https://www.featured.nextretreat.com"
+        },
+        "responseHeaders": {
+            "access-control-allow-headers": "cookiehub-regions",
+            "access-control-allow-origin": "*",
+            "content-length": "28",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "server": "CloudFront",
+            "via": "1.1 a4035907ac3c3ba8d1fd116b6b6b9a4c.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "fjiRl5nKy-fQZx4-WmdrMW6BMXK5IQ8baxN5Cj-o_GDHihKeAilSyQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "LambdaGeneratedResponse from cloudfront"
+        },
+        "responseSize": "28",
+        "responseBodySize": 28
+    },
+    {
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-6KWZCKDCC1&gtm=45je34j0&_p=1015460908&gcs=G100&cid=1041621691.1682262497&ul=en-us&sr=1440x900&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1682262496&sct=1&seg=0&dl=https%3A%2F%2Fwww.featured.nextretreat.com%2F&dt=NextRetreat%20%7C%20Featured%20Venues%20%7C%20Hand-picked%20locations%20for%20team%20retreats&en=page_view&_fv=1&_nsi=1&_ss=1",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*",
+            "origin": "https://www.featured.nextretreat.com"
+        },
+        "responseHeaders": {
+            "access-control-allow-credentials": "true",
+            "access-control-allow-origin": "https://www.featured.nextretreat.com",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "cache-control": "no-cache, no-store, must-revalidate",
+            "content-length": "0",
+            "content-type": "text/plain",
+            "cross-origin-resource-policy": "cross-origin",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+            "pragma": "no-cache",
+            "server": "Golfe2"
+        },
+        "responseSize": "0",
+        "responseBodySize": 0
+    },
+    {
+        "url": "https://cookiehub.net/c2/css/225097fe.css",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "text/css,*/*;q=0.1"
+        },
+        "responseHeaders": {
+            "age": "5591",
+            "cache-control": "max-age=86400",
+            "content-encoding": "br",
+            "content-type": "text/css",
+            "date": "Sun, 23 Apr 2023 13:35:06 GMT",
+            "etag": "W/\"f42b612d54a8a83d7bff7f05e510b95e\"",
+            "last-modified": "Thu, 13 Apr 2023 21:13:12 GMT",
+            "server": "AmazonS3",
+            "vary": "Accept-Encoding\nOrigin",
+            "via": "1.1 47b3fa796fd76d32bef114d0b8ce8cac.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "fPULQFEv_VHwvaUoiKOIy77tQmUU9Eijw5ti9hd8E1bUCiprL_M2hw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-amz-server-side-encryption": "AES256",
+            "x-amz-version-id": "AgDyuxmP60Pc0_gmlTIfPgapYNmN3XPA",
+            "x-cache": "Hit from cloudfront"
+        },
+        "responseBodySize": 47195
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/885-c025aab845bb0f04.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"21c89-187ae9f50f1\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "I_FOIPZehocAokULDF3H2UkwFbFvjAu218e_UR_jnr_c8viaoFaRQQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 0
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/885-c025aab845bb0f04.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"21c89-187ae9f50f1\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "I_FOIPZehocAokULDF3H2UkwFbFvjAu218e_UR_jnr_c8viaoFaRQQ==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 138377
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/a4c92b5b-c6c6fbab5c726ef7.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"1e48f-187ae9f50cf\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "3HcDVKVgWiWnGCBfOqIZsk3F27588adh-qZPE7t5_Z7x8NkHKlRtmw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 0
+    },
+    {
+        "url": "https://www.featured.nextretreat.com/_next/static/chunks/a4c92b5b-c6c6fbab5c726ef7.js",
+        "requestHeaders": {
+            "sec-ch-ua": "",
+            "referer": "https://www.featured.nextretreat.com/",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/112.0.5614.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"\"",
+            "accept": "*/*"
+        },
+        "responseHeaders": {
+            "accept-ranges": "bytes",
+            "cache-control": "public, max-age=31536000, immutable",
+            "content-encoding": "gzip",
+            "content-type": "application/javascript; charset=UTF-8",
+            "date": "Sun, 23 Apr 2023 15:08:16 GMT",
+            "etag": "W/\"1e48f-187ae9f50cf\"",
+            "last-modified": "Sun, 23 Apr 2023 14:58:09 GMT",
+            "server": "CloudFront",
+            "vary": "Accept-Encoding",
+            "via": "1.1 de9b04903710e9099bfc75aaf59c8eda.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "3HcDVKVgWiWnGCBfOqIZsk3F27588adh-qZPE7t5_Z7x8NkHKlRtmw==",
+            "x-amz-cf-pop": "VIE50-C2",
+            "x-cache": "Miss from cloudfront"
+        },
+        "responseBodySize": 124047
+    }
+]

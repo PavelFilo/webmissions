@@ -1,13 +1,13 @@
 // component that shows result categories, values and descriptions one below the other
 // props: emissionResults: array of objects with category, value and description
 
-export const EmissionResults = ({
-  total,
-  emissionResults,
-}: {
+interface IData {
+  url: string
   total: number
   emissionResults: { category: string; value: number; description: string }[]
-}) => {
+}
+
+export const EmissionResults = ({ data }: { data: IData }) => {
   return (
     <div className="space-y-8">
       <div className="flex flex-col space-y-2">
@@ -15,10 +15,10 @@ export const EmissionResults = ({
           <h3 className="font-primary text-lg font-bold text-white">
             Total emissions from your web app
           </h3>
-          <p className="font-secondary text-white">{total} kg</p>
+          <p className="font-secondary text-white">{data.total} kg</p>
         </div>
       </div>
-      {emissionResults.map((result) => (
+      {data.emissionResults.map((result) => (
         <div key={result.category} className="flex flex-col space-y-2">
           <div className="flex items-center justify-between">
             <h3 className="font-primary text-lg font-bold text-white">
@@ -26,7 +26,9 @@ export const EmissionResults = ({
             </h3>
             <p className="font-secondary text-white">{result.value} kg</p>
           </div>
-          <p className="font-secondary text-white">{result.description}</p>
+          <p className="text-left font-secondary text-white">
+            {result.description}
+          </p>
         </div>
       ))}
     </div>

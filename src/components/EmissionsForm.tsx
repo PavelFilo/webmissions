@@ -37,7 +37,7 @@ export const EmissionsForm = ({
       <button
         type="submit"
         className={`
-          ${isClicked ? 'pointer-events-none	opacity-75' : ''}
+          ${isClicked ? 'opacity-75' : ''}
           rounded-r-lg border border-transparent bg-palette-primary py-3 px-4 text-sm font-semibold text-white hover:bg-palette-light focus:outline-none 
           focus-visible:ring-2 focus-visible:ring-palette-primary focus-visible:ring-offset-2 sm:text-base`}
       >

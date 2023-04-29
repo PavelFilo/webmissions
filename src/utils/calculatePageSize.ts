@@ -1,6 +1,7 @@
-import puppeteer from 'puppeteer'
+/* eslint-disable @typescript-eslint/no-var-requires */
+import type Chromium from 'chrome-aws-lambda'
 import fs from 'fs/promises'
-
+import { type PuppeteerNode, type Browser, type Viewport } from 'puppeteer-core'
 interface IResult {
   url: string
   requestHeaders: Record<string, string>
@@ -10,9 +11,31 @@ interface IResult {
   responseBodySize: number | undefined
 }
 
+let chrome: Chromium = { args: [] }
+let puppeteer: PuppeteerNode
+
+if (process.env.AWS_LAMBDA_FUNCTION_VERSION) {
+  // running on the Vercel platform.
+  chrome = require('chrome-aws-lambda') as Chromium
+  puppeteer = require('puppeteer-core') as PuppeteerNode
+} else {
+  // running locally.
+  puppeteer = require('puppeteer') as PuppeteerNode
+}
+
 export const calculatePageSize = async (url: string) => {
   //initiate the browser
-  const browser = await puppeteer.launch()
+  const browser: Browser = await puppeteer.launch({
+    args: [
+      ...((chrome.args as [] | undefined) || []),
+      '--hide-scrollbars',
+      '--disable-web-security',
+    ],
+    defaultViewport: chrome.defaultViewport as Viewport,
+    executablePath: (await chrome.executablePath) as string,
+    headless: true,
+    ignoreHTTPSErrors: true,
+  })
 
   //create a new in headless chrome
   const page = await browser.newPage()

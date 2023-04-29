@@ -8,10 +8,6 @@
 const config = {
   reactStrictMode: true,
 
-  experimental: {
-    runtime: 'experimental-edge',
-  },
-
   images: {
     domains: ['source.unsplash.com', 'images.unsplash.com'],
   },

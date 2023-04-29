@@ -2,6 +2,7 @@
 import type Chromium from 'chrome-aws-lambda'
 import fs from 'fs/promises'
 import { type PuppeteerNode, type Browser, type Viewport } from 'puppeteer-core'
+
 interface IResult {
   url: string
   requestHeaders: Record<string, string>

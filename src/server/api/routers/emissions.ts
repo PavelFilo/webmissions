@@ -2,6 +2,8 @@ import { z } from 'zod'
 import { createTRPCRouter, publicProcedure } from '~/server/api/trpc'
 import { calculatePageSize } from '~/utils/calculatePageSize'
 
+export const runtime = 'edge'
+
 export const emissionsRouter = createTRPCRouter({
   getEmissions: publicProcedure
     .input(z.object({ url: z.string() }))

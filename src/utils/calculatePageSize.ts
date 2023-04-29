@@ -5,10 +5,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 import fs from 'fs/promises'
 import edgeChromium from 'chrome-aws-lambda'
-
-// Importing Puppeteer core as default otherwise
-// it won't function correctly with "launch()"
-import puppeteer, { type Page } from 'puppeteer-core'
+import puppeteer from 'puppeteer-core'
 
 interface IResult {
   url: string
@@ -26,7 +23,7 @@ export const calculatePageSize = async (url: string) => {
   //initiate the browser
   const executablePath =
     (await edgeChromium.executablePath) || LOCAL_CHROME_EXECUTABLE
-
+  return executablePath
   const browser = await puppeteer.launch({
     executablePath,
     args: edgeChromium.args,

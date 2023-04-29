@@ -23,7 +23,10 @@ export const calculatePageSize = async (url: string) => {
   //initiate the browser
   const executablePath =
     (await edgeChromium.executablePath) || LOCAL_CHROME_EXECUTABLE
-  console.log(executablePath)
+
+  if (executablePath === LOCAL_CHROME_EXECUTABLE)
+    throw new Error(executablePath)
+
   const browser = await puppeteer.launch({
     executablePath,
     args: edgeChromium.args,

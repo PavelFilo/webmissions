@@ -27,11 +27,14 @@ export const calculatePageSize = async (url: string) => {
   //initiate the browser
   const browser: Browser = await puppeteer.launch({
     args: [
+      //@ts-ignore
       ...((chrome.args as [] | undefined) || []),
       '--hide-scrollbars',
       '--disable-web-security',
     ],
+    //@ts-ignore
     defaultViewport: chrome.defaultViewport as Viewport,
+    //@ts-ignore
     executablePath: (await chrome.executablePath) as string,
     headless: true,
     ignoreHTTPSErrors: true,

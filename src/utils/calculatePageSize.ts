@@ -1,7 +1,9 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-import type Chromium from 'chrome-aws-lambda'
 import fs from 'fs/promises'
-import { type PuppeteerNode, type Browser, type Viewport } from 'puppeteer-core'
+import edgeChromium from 'chrome-aws-lambda'
+
+// Importing Puppeteer core as default otherwise
+// it won't function correctly with "launch()"
+import puppeteer, { type Page } from 'puppeteer-core'
 
 interface IResult {
   url: string
@@ -12,33 +14,18 @@ interface IResult {
   responseBodySize: number | undefined
 }
 
-let chrome: Chromium = { args: [] }
-let puppeteer: PuppeteerNode
-
-if (process.env.AWS_LAMBDA_FUNCTION_VERSION) {
-  // running on the Vercel platform.
-  chrome = require('chrome-aws-lambda') as Chromium
-  puppeteer = require('puppeteer-core') as PuppeteerNode
-} else {
-  // running locally.
-  puppeteer = require('puppeteer') as PuppeteerNode
-}
+const LOCAL_CHROME_EXECUTABLE =
+  '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 
 export const calculatePageSize = async (url: string) => {
   //initiate the browser
-  const browser: Browser = await puppeteer.launch({
-    args: [
-      //@ts-ignore
-      ...((chrome.args as [] | undefined) || []),
-      '--hide-scrollbars',
-      '--disable-web-security',
-    ],
-    //@ts-ignore
-    defaultViewport: chrome.defaultViewport as Viewport,
-    //@ts-ignore
-    executablePath: (await chrome.executablePath) as string,
-    headless: true,
-    ignoreHTTPSErrors: true,
+  const executablePath =
+    (await edgeChromium.executablePath) || LOCAL_CHROME_EXECUTABLE
+
+  const browser = await puppeteer.launch({
+    executablePath,
+    args: edgeChromium.args,
+    headless: false,
   })
 
   //create a new in headless chrome

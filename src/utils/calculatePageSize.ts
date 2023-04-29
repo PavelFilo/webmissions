@@ -51,8 +51,8 @@ export const calculatePageSize = async (url: string) => {
   page.on('request', (request) => {
     results.push(request.url())
 
-    request.continue().catch((err) => {
-      console.error(err)
+    request.continue().catch(() => {
+      // console.error(err)
     })
   })
 

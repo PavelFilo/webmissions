@@ -30,6 +30,7 @@ export const calculatePageSize = async (url: string) => {
   const browser = await puppeteer.launch({
     executablePath,
     args: edgeChromium.args,
+    ignoreDefaultArgs: ['--disable-extensions'],
     headless: false,
   })
 

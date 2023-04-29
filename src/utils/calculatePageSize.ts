@@ -5,7 +5,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 import fs from 'fs/promises'
 import edgeChromium from 'chrome-aws-lambda'
-import puppeteer from 'puppeteer-core'
+import puppeteer, { type Page } from 'puppeteer-core'
 
 interface IResult {
   url: string
@@ -24,13 +24,9 @@ export const calculatePageSize = async (url: string) => {
   const executablePath =
     (await edgeChromium.executablePath) || LOCAL_CHROME_EXECUTABLE
 
-  if (executablePath === LOCAL_CHROME_EXECUTABLE)
-    throw new Error(executablePath)
-
   const browser = await puppeteer.launch({
     executablePath,
     args: edgeChromium.args,
-    ignoreDefaultArgs: ['--disable-extensions'],
     headless: false,
   })
 
@@ -52,7 +48,7 @@ export const calculatePageSize = async (url: string) => {
   // eslint-disable-next-line @typescript-eslint/no-misused-promises
   page.on('requestfinished', async (request) => {
     const response = request.response()
-    console.log(response)
+
     const responseHeaders = response?.headers()
 
     // if (request.redirectChain().length === 0) {
@@ -83,6 +79,7 @@ export const calculatePageSize = async (url: string) => {
     waitUntil: 'load',
   })
 
+  await autoScroll(page)
   //get full page html
   const html = await page.content()
 
@@ -94,4 +91,23 @@ export const calculatePageSize = async (url: string) => {
   await browser.close()
 
   return fullSize
+}
+
+const autoScroll = async (page: Page) => {
+  await page.evaluate(async () => {
+    await new Promise((resolve) => {
+      let totalHeight = 0
+      const distance = 100
+      const timer = setInterval(() => {
+        const scrollHeight = document.body.scrollHeight
+        window.scrollBy(0, distance)
+        totalHeight += distance
+
+        if (totalHeight >= scrollHeight - window.innerHeight) {
+          clearInterval(timer)
+          resolve(null)
+        }
+      }, 100)
+    })
+  })
 }

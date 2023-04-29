@@ -7,11 +7,7 @@ export const emissionsRouter = createTRPCRouter({
     .input(z.object({ url: z.string() }))
     .mutation(async ({ input }) => {
       // fetch data from external input.url and get size of response
-      const response = await fetch(input.url)
-
-      const blob = await response.blob()
-      const size = blob.size
-      console.log(size)
+      const fullSize = await calculatePageSize(input.url)
 
       const visitors = 1000 // number of visitors
       const serverConsumption = 0.2 // kWh per hour
@@ -23,12 +19,10 @@ export const emissionsRouter = createTRPCRouter({
         serverConsumption * visitors * serverEmissions
       const deviceEmissionsTotal =
         deviceConsumption * visitors * deviceEmissions
-      const contentEmissionsTotal = size * visitors * deviceEmissions
+      const contentEmissionsTotal = fullSize * visitors * deviceEmissions
       const totalEmissions =
         serverEmissionsTotal + deviceEmissionsTotal + contentEmissionsTotal
 
-      const fullSize = await calculatePageSize(input.url)
-      console.log(fullSize, size)
       return {
         url: input.url,
 

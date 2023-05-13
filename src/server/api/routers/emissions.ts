@@ -7,7 +7,23 @@ export const emissionsRouter = createTRPCRouter({
     .input(z.object({ url: z.string() }))
     .mutation(async ({ input }) => {
       // fetch data from external input.url and get size of response
-      const fullSize = await calculatePageSize(input.url)
+      const response = await fetch(
+        'https://mlalr52pgg.execute-api.eu-north-1.amazonaws.com/prod/calculate?url=' +
+          input.url,
+        {
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: '*/*',
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+            'Access-Control-Allow-Headers':
+              'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With',
+            'X-Api-Key': process.env.NEXT_PUBLIC_AWS_API_KEY || '',
+          },
+        }
+      )
+
+      const fullSize = (await response.json()) as number
 
       const visitors = 1000 // number of visitors
       const serverConsumption = 0.2 // kWh per hour

@@ -8,6 +8,9 @@
     "lint": "next lint",
     "start": "next start"
   },
+  "engines": {
+    "node": "^14"
+  },
   "dependencies": {
     "@tanstack/react-query": "^4.28.0",
     "@trpc/client": "^10.18.0",

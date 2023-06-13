@@ -4,7 +4,11 @@
 interface IData {
   url: string
   total: number
-  emissionResults: { category: string; value: number; description: string }[]
+  emissionResults: {
+    category: string
+    value: number | string
+    description: string
+  }[]
 }
 
 export const EmissionResults = ({ data }: { data: IData }) => {

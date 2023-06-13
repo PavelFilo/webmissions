@@ -9,7 +9,7 @@ interface IData {
 
 export const EmissionResults = ({ data }: { data: IData }) => {
   return (
-    <div className="space-y-8">
+    <div className="divide-gray-40 divide-y rounded-lg bg-palette-dark bg-opacity-80 p-4">
       <div className="flex flex-col space-y-2">
         <div className="flex items-center justify-between">
           <h3 className="font-primary text-lg font-bold text-white">
@@ -19,12 +19,15 @@ export const EmissionResults = ({ data }: { data: IData }) => {
         </div>
       </div>
       {data.emissionResults.map((result) => (
-        <div key={result.category} className="flex flex-col space-y-2">
+        <div
+          key={result.category}
+          className="my-2 flex flex-col space-y-1 pt-2"
+        >
           <div className="flex items-center justify-between">
             <h3 className="font-primary text-lg font-bold text-white">
               {result.category}
             </h3>
-            <p className="font-secondary text-white">{result.value} kg</p>
+            <p className="font-secondary text-white">{result.value}</p>
           </div>
           <p className="text-left font-secondary text-white">
             {result.description}

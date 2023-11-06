@@ -1,12 +1,7 @@
-import { type NextPage } from 'next'
 import Image from 'next/image'
-import { EmissionResults } from '~/components/EmissionResults'
-import { EmissionsForm } from '~/components/EmissionsForm'
-import { api } from '~/utils/api'
+import EmissionsWrap from '~/components/EmissionsWrap'
 
-const Home: NextPage = () => {
-  const { mutate, data, isLoading } = api.emissions.getEmissions.useMutation()
-
+export default function Page() {
   return (
     <div className="relative h-screen w-screen bg-gradient-to-b">
       <Image
@@ -21,6 +16,7 @@ const Home: NextPage = () => {
           <h1 className="font-primary text-3xl font-extrabold text-white sm:text-4xl md:text-5xl md:leading-tight">
             Calculate Your Web App&apos;s Carbon Footprint
           </h1>
+
           <p className="font-secondary  text-white md:text-lg lg:text-xl">
             With just a few clicks, you can get an estimate of your web
             app&apos;s carbon footprint and identify ways to reduce its impact
@@ -28,17 +24,9 @@ const Home: NextPage = () => {
             sustainable web!
           </p>
 
-          <EmissionsForm
-            mutate={mutate}
-            isClicked={!!data}
-            isLoading={isLoading}
-          />
-
-          {data && <EmissionResults data={data} />}
+          <EmissionsWrap />
         </div>
       </div>
     </div>
   )
 }
-
-export default Home

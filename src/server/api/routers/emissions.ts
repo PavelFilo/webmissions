@@ -2,15 +2,20 @@ import { z } from 'zod'
 import { createTRPCRouter, publicProcedure } from '~/server/api/trpc'
 import { calculateHostingData } from '~/utils/calculateHostingData'
 import { calculatePageSize } from '~/utils/calculatePageSize'
+import trackEvent from '~/utils/mixpanel'
 
 export const emissionsRouter = createTRPCRouter({
   getEmissions: publicProcedure
     .input(z.object({ url: z.string() }))
     .mutation(async ({ input }) => {
+      trackEvent('calculation_start')
+
       const emissionResults = []
-      const fullSize = await calculatePageSize(input.url)
-      const { carbonIntensityData, greenHostingData } =
-        await calculateHostingData(input.url)
+      const [fullSize, { carbonIntensityData, greenHostingData }] =
+        await Promise.all([
+          calculatePageSize(input.url),
+          calculateHostingData(input.url),
+        ])
 
       if (fullSize)
         emissionResults.push({
@@ -33,9 +38,36 @@ export const emissionsRouter = createTRPCRouter({
           description: 'Web host type from which is website domain served',
         })
 
+      try {
+        await fetch(
+          'https://dz41rvp7x4.execute-api.eu-north-1.amazonaws.com/test/results',
+          {
+            method: 'POST',
+            headers: {
+              'content-type': 'application/json',
+            },
+            body: JSON.stringify({
+              url: input.url,
+              total: 1,
+              categories: emissionResults.map((result) => ({
+                label: result.category,
+                value: result.value,
+              })),
+            }),
+          }
+        )
+      } catch (e) {
+        trackEvent('db_push_error', {
+          error: e?.toString(),
+        })
+
+        throw e
+      }
+
+      trackEvent('calculation_end_success')
+
       return {
         url: input.url,
-
         total: 0, // totalEmissions,
         emissionResults,
       }

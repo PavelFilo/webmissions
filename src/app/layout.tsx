@@ -3,6 +3,7 @@ import { TRPCReactProvider } from '~/trpc/react'
 import { cookies } from 'next/headers'
 
 import '~/styles/globals.css'
+import trackEvent from '~/utils/mixpanel'
 
 export const metadata: Metadata = {
   title: 'WebMissions | Get the co2 Emissions of your Web',
@@ -17,6 +18,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  trackEvent('page_opened', {
+    distinct_id: '1234567890',
+  })
+
   return (
     <html lang="en">
       <body>

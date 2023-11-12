@@ -1,4 +1,5 @@
 import dns from 'dns'
+import trackEvent from './mixpanel'
 
 const getIPAddressFromURL = (url: string): Promise<string> => {
   const hostname = new URL(url).hostname
@@ -81,9 +82,28 @@ interface IHostingData {
 export const calculateHostingData = async (
   url: string
 ): Promise<IHostingData> => {
-  const carbonIntensityData = await calculateCarbonIntensityFromIP(url)
+  trackEvent('hosting_start')
 
-  const greenHostingData = await getGreenHostingData(url)
+  let carbonIntensityData
+  let greenHostingData
+
+  try {
+    const [carbonRes, hostingRes] = await Promise.all([
+      calculateCarbonIntensityFromIP(url),
+      getGreenHostingData(url),
+    ])
+
+    carbonIntensityData = carbonRes
+    greenHostingData = hostingRes
+  } catch (e) {
+    trackEvent('hosting_error', {
+      error: e?.toString(),
+    })
+
+    throw e
+  }
+
+  trackEvent('hosting_end')
 
   return { carbonIntensityData, greenHostingData }
 }

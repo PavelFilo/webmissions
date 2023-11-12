@@ -19,6 +19,7 @@ export const EmissionResults = ({ data }: { data: IData }) => {
           <h3 className="font-primary text-lg font-bold text-white">
             Total emissions from your web app
           </h3>
+
           <p className="font-secondary text-white">{data.total} kg</p>
         </div>
       </div>

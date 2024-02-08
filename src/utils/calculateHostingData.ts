@@ -1,5 +1,6 @@
 import dns from 'dns'
 import trackEvent from './mixpanel'
+import fossil_share_by_countries from './countries_fossil_share.json'
 
 const getIPAddressFromURL = (url: string): Promise<string> => {
   const hostname = new URL(url).hostname
@@ -56,6 +57,13 @@ interface ICarbonIntensityResponse {
   checked_ip: string
 }
 
+interface ICountryResponse {
+  ip: string
+  country_code: string
+  country_name: string
+  city: string
+}
+
 const calculateCarbonIntensityFromIP = async (url: string) => {
   const ipAddress = await getIPAddressFromURL(url)
 
@@ -74,9 +82,30 @@ const calculateCarbonIntensityFromIP = async (url: string) => {
   return intensityData
 }
 
+const calculateFossilShareFromIP = async (url: string) => {
+  const ipAddress = await getIPAddressFromURL(url)
+
+  const countryResponse = await fetch(
+    `http://api.ipstack.com/${ipAddress}?access_key=f66864527662e0b11ef8ae1048809b91`
+  )
+
+  const countryObj = (await countryResponse.json()) as ICountryResponse
+
+  const fossilShare = fossil_share_by_countries.find(
+    ({ name }) => name === countryObj.country_name
+  )?.fossil_share
+
+  if (!fossilShare) {
+    return fossil_share_by_countries.find(({ name }) => name === 'World')
+      ?.fossil_share as number
+  }
+  return fossilShare
+}
+
 interface IHostingData {
   carbonIntensityData: ICarbonIntensityResponse | undefined
   greenHostingData: IGreenHostingResponse | undefined
+  fossilShareData: number | undefined
 }
 
 export const calculateHostingData = async (
@@ -86,15 +115,18 @@ export const calculateHostingData = async (
 
   let carbonIntensityData
   let greenHostingData
+  let fossilShareData
 
   try {
-    const [carbonRes, hostingRes] = await Promise.all([
+    const [carbonRes, hostingRes, fossilShare] = await Promise.all([
       calculateCarbonIntensityFromIP(url),
       getGreenHostingData(url),
+      calculateFossilShareFromIP(url),
     ])
 
     carbonIntensityData = carbonRes
     greenHostingData = hostingRes
+    fossilShareData = fossilShare
   } catch (e) {
     trackEvent('hosting_error', {
       error: e?.toString(),
@@ -105,5 +137,5 @@ export const calculateHostingData = async (
 
   trackEvent('hosting_end')
 
-  return { carbonIntensityData, greenHostingData }
+  return { carbonIntensityData, greenHostingData, fossilShareData }
 }

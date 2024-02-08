@@ -20,7 +20,9 @@ export const EmissionResults = ({ data }: { data: IData }) => {
             Total emissions from your web app
           </h3>
 
-          <p className="font-secondary text-white">{data.total} kg</p>
+          <p className="font-secondary text-white">
+            {data.total.toFixed(2)}g Co2
+          </p>
         </div>
       </div>
       {data.emissionResults.map((result) => (

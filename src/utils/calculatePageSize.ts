@@ -1,8 +1,15 @@
 import trackEvent from './mixpanel'
 
-export const calculatePageSize = async (url: string): Promise<number> => {
+interface IPageSizeResponse {
+  firstLoad: number
+  secondLoad: number
+}
+
+export const calculatePageSize = async (
+  url: string
+): Promise<IPageSizeResponse> => {
   // fetch data from external input.url and get size of response
-  let fullSize
+  let sizes
   try {
     const response = await fetch(
       'https://mlalr52pgg.execute-api.eu-north-1.amazonaws.com/prod/calculate?url=' +
@@ -20,7 +27,7 @@ export const calculatePageSize = async (url: string): Promise<number> => {
       }
     )
 
-    fullSize = (await response.json()) as number
+    sizes = (await response.json()) as IPageSizeResponse
   } catch (e) {
     trackEvent('page_size_error', {
       error: e?.toString(),
@@ -31,5 +38,5 @@ export const calculatePageSize = async (url: string): Promise<number> => {
 
   trackEvent('page_size_success')
 
-  return fullSize
+  return sizes
 }

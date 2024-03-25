@@ -24,33 +24,36 @@ export const emissionsRouter = createTRPCRouter({
 
       if (sizes)
         emissionResults.push({
-          category: 'Size (second load)',
+          category: 'Veľkosť (cached)',
           value: `${convertToMegaBytes(sizes.firstLoad).toFixed(
             2
           )} MB (${convertToMegaBytes(sizes.secondLoad).toFixed(2)} MB)`,
-          description: 'Size of the page in megabytes',
+          description: 'Veľkosť stránky v megabajtoch',
         })
+      else {
+        throw new Error('Nepodarilo sa získať veľkosť stránky!')
+      }
 
       if (greenHostingData)
         emissionResults.push({
-          category: 'Host type',
-          value: greenHostingData.green ? 'Green' : 'Not Green',
-          description: 'Web host type from which is website domain served',
+          category: 'Typ hostingu',
+          value: greenHostingData.green ? 'Zelený' : 'Nie je zelený',
+          description: 'Typ hostingu z ktorého je aplikácia servovaná',
         })
 
       if (carbonIntensityData) {
         emissionResults.push({
-          category: 'Co2 intensity',
+          category: 'Intenzita Co2',
           value: carbonIntensityData.carbon_intensity.toFixed(2),
-          description: 'Annual Co2 intensity of server',
+          description: 'Ročná intenzita Co2 servera',
         })
 
         if (fossilShareData)
           emissionResults.push({
-            category: 'Fossil share',
+            category: 'Podiel fossilných palív',
             value: `${carbonIntensityData.generation_from_fossil}%`,
             description:
-              'Share of fossil electricity sources of the country from which the website is hosted',
+              'Podiel fossilných palív zdrojov energie krajiny v ktorej je stránka hostovaná',
           })
       }
 

@@ -24,7 +24,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body>
+      <body className="bg-palette-primary">
         <div className="min-h-screen overflow-x-hidden">
           <TRPCReactProvider cookies={cookies().toString()}>
             {children}

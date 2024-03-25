@@ -3,11 +3,12 @@ import trackEvent from './mixpanel'
 interface IPageSizeResponse {
   firstLoad: number
   secondLoad: number
+  message?: string
 }
 
 export const calculatePageSize = async (
   url: string
-): Promise<IPageSizeResponse> => {
+): Promise<IPageSizeResponse | null> => {
   // fetch data from external input.url and get size of response
   let sizes
   try {
@@ -37,6 +38,9 @@ export const calculatePageSize = async (
   }
 
   trackEvent('page_size_success')
-
-  return sizes
+  if (!sizes.message) return sizes
+  trackEvent('page_size_error', {
+    error: sizes.message?.toString(),
+  })
+  return null
 }

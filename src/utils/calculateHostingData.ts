@@ -2,17 +2,12 @@ import dns from 'dns'
 import trackEvent from './mixpanel'
 import fossil_share_by_countries from './countries_fossil_share.json'
 
-const getIPAddressFromURL = (url: string): Promise<string> => {
+export const getIPAddressFromURL = async (url: string): Promise<string> => {
   const hostname = new URL(url).hostname
 
-  return new Promise((resolve, reject) => {
-    dns.resolve(hostname, (error, addresses) => {
-      if (error) {
-        reject(error)
-      }
-      resolve(addresses[0] as string)
-    })
-  })
+  const addresses = await dns.promises.resolve(hostname)
+
+  return addresses[0] as string
 }
 
 interface IGreenHostingResponse {

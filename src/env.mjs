@@ -7,6 +7,7 @@ import { z } from 'zod'
 const server = z.object({
   NODE_ENV: z.enum(['development', 'test', 'production']),
   NEXT_PUBLIC_MIXPANEL_API_KEY: z.string().min(1),
+  NEXT_PUBLIC_LAMBDA_URL: z.string().min(1),
 })
 
 /**
@@ -26,6 +27,7 @@ const client = z.object({
 const processEnv = {
   NODE_ENV: process.env.NODE_ENV,
   NEXT_PUBLIC_MIXPANEL_API_KEY: process.env.NEXT_PUBLIC_MIXPANEL_API_KEY,
+  NEXT_PUBLIC_LAMBDA_URL: process.env.NEXT_PUBLIC_LAMBDA_URL,
 }
 
 // Don't touch the part below

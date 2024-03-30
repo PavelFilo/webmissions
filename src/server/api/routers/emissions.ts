@@ -1,6 +1,9 @@
 import { z } from 'zod'
 import { createTRPCRouter, publicProcedure } from '~/server/api/trpc'
-import { calculateHostingData } from '~/utils/calculateHostingData'
+import {
+  calculateHostingData,
+  getIPAddressFromURL,
+} from '~/utils/calculateHostingData'
 import { calculatePageSize } from '~/utils/calculatePageSize'
 import trackEvent from '~/utils/mixpanel'
 
@@ -11,9 +14,20 @@ export const emissionsRouter = createTRPCRouter({
   getEmissions: publicProcedure
     .input(z.object({ url: z.string() }))
     .mutation(async ({ input }) => {
+      console.log(await getIPAddressFromURL(input.url))
+
+      if (!(await getIPAddressFromURL(input.url))) {
+        return {
+          url: input.url,
+          total: 0,
+          emissionResults: [],
+        }
+      }
+
       trackEvent('calculation_start')
 
       const emissionResults = []
+
       const [
         sizes,
         { carbonIntensityData, greenHostingData, fossilShareData },
@@ -37,14 +51,14 @@ export const emissionsRouter = createTRPCRouter({
       if (greenHostingData)
         emissionResults.push({
           category: 'Typ hostingu',
-          value: greenHostingData.green ? 'Zelený' : 'Nie je zelený',
-          description: 'Typ hostingu z ktorého je aplikácia servovaná',
+          value: greenHostingData.green ? 'Udržateľný' : 'Nezistené',
+          description: 'Typ zdroja energie z ktorého je aplikácia servovaná',
         })
 
       if (carbonIntensityData) {
         emissionResults.push({
           category: 'Intenzita Co2',
-          value: carbonIntensityData.carbon_intensity.toFixed(2),
+          value: `${carbonIntensityData.carbon_intensity.toFixed(2)} g/kWh`,
           description: 'Ročná intenzita Co2 servera',
         })
 
@@ -93,7 +107,9 @@ export const emissionsRouter = createTRPCRouter({
       // The calculation energyPerVisit = [Data Transfer per Visit (new visitors) in GB x 0.81 kWh/GB x 0.75] + [Data Transfer per Visit (returning visitors) in GB x 0.81 kWh/GB x 0.25 x 0.02]
       const totalEmissions =
         (energyPerFirstVisit + energyPerSecondVisit) *
-        (carbonIntensityData?.carbon_intensity || 0)
+        (greenHostingData?.green
+          ? 50
+          : carbonIntensityData?.carbon_intensity || 0)
 
       return {
         url: input.url,

@@ -6,8 +6,8 @@ import '~/styles/globals.css'
 import trackEvent from '~/utils/mixpanel'
 
 export const metadata: Metadata = {
-  title: 'WebMissions | Get the co2 Emissions of your Web',
-  description: 'Get the co2 Emissions of your Web',
+  title: 'WebMissions | Odhadnite uhlíkovú stopu svojho webu',
+  description: 'Odhadnite uhlíkovú stopu svojho webu',
   manifest: '/manifest.json',
   themeColor: '#EF4444',
   icons: [{ rel: 'apple-touch-icon', url: '/apple-icon.png' }],

@@ -4,6 +4,13 @@ import { EmissionResults } from '~/components/EmissionResults'
 import { EmissionsForm } from '~/components/EmissionsForm'
 import { api } from '~/trpc/react'
 
+import Hotjar from '@hotjar/browser'
+
+const siteId = 3926319
+const hotjarVersion = 6
+
+Hotjar.init(siteId, hotjarVersion)
+
 export default function EmissionsWrap() {
   const { mutate, data, error, isLoading } =
     api.emissions.getEmissions.useMutation()

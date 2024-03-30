@@ -100,13 +100,16 @@ export const emissionsRouter = createTRPCRouter({
             body: JSON.stringify({
               url: input.url,
               total: totalEmissions,
-              categories: {
-                sizes,
-                greenHosting: greenHostingData?.green,
-                carbonIntensity: carbonIntensityData?.carbon_intensity,
-                fossilShare: fossilShareData,
-                fossilShareFromAPI: carbonIntensityData?.generation_from_fossil,
-              },
+              categories: [
+                {
+                  sizes,
+                  greenHosting: greenHostingData?.green,
+                  carbonIntensity: carbonIntensityData?.carbon_intensity,
+                  fossilShare: fossilShareData,
+                  fossilShareFromAPI:
+                    carbonIntensityData?.generation_from_fossil,
+                },
+              ],
             }),
           }
         )

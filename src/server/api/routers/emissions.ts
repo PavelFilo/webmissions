@@ -10,6 +10,8 @@ import trackEvent from '~/utils/mixpanel'
 const convertToMegaBytes = (bytes: number) => bytes / (1024 * 1024)
 const convertToGigaBytes = (bytes: number) => bytes / (1024 * 1024 * 1024)
 
+const GREEN_SERVER_INTENSITY = 50
+
 export const emissionsRouter = createTRPCRouter({
   getEmissions: publicProcedure
     .input(z.object({ url: z.string() }))
@@ -58,7 +60,11 @@ export const emissionsRouter = createTRPCRouter({
       if (carbonIntensityData) {
         emissionResults.push({
           category: 'Intenzita Co2',
-          value: `${carbonIntensityData.carbon_intensity.toFixed(2)} g/kWh`,
+          value: `${
+            greenHostingData?.green
+              ? GREEN_SERVER_INTENSITY
+              : carbonIntensityData.carbon_intensity.toFixed(2)
+          } g/kWh`,
           description: 'Ročná intenzita Co2 servera',
         })
 
@@ -71,6 +77,18 @@ export const emissionsRouter = createTRPCRouter({
           })
       }
 
+      const energyPerFirstVisit =
+        convertToGigaBytes(sizes?.firstLoad) * 0.81 * 0.75
+      const energyPerSecondVisit =
+        convertToGigaBytes(sizes?.secondLoad) * 0.81 * 0.25
+
+      // The calculation energyPerVisit = [Data Transfer per Visit (new visitors) in GB x 0.81 kWh/GB x 0.75] + [Data Transfer per Visit (returning visitors) in GB x 0.81 kWh/GB x 0.25 x 0.02]
+      const totalEmissions =
+        (energyPerFirstVisit + energyPerSecondVisit) *
+        (greenHostingData?.green
+          ? GREEN_SERVER_INTENSITY
+          : carbonIntensityData?.carbon_intensity || 0)
+
       try {
         await fetch(
           'https://dz41rvp7x4.execute-api.eu-north-1.amazonaws.com/test/results',
@@ -81,11 +99,14 @@ export const emissionsRouter = createTRPCRouter({
             },
             body: JSON.stringify({
               url: input.url,
-              total: 1,
-              categories: emissionResults.map((result) => ({
-                label: result.category,
-                value: result.value,
-              })),
+              total: totalEmissions,
+              categories: {
+                sizes,
+                greenHosting: greenHostingData?.green,
+                carbonIntensity: carbonIntensityData?.carbon_intensity,
+                fossilShare: fossilShareData,
+                fossilShareFromAPI: carbonIntensityData?.generation_from_fossil,
+              },
             }),
           }
         )
@@ -98,18 +119,6 @@ export const emissionsRouter = createTRPCRouter({
       }
 
       trackEvent('calculation_end_success')
-
-      const energyPerFirstVisit =
-        convertToGigaBytes(sizes?.firstLoad) * 0.81 * 0.75
-      const energyPerSecondVisit =
-        convertToGigaBytes(sizes?.secondLoad) * 0.81 * 0.25
-
-      // The calculation energyPerVisit = [Data Transfer per Visit (new visitors) in GB x 0.81 kWh/GB x 0.75] + [Data Transfer per Visit (returning visitors) in GB x 0.81 kWh/GB x 0.25 x 0.02]
-      const totalEmissions =
-        (energyPerFirstVisit + energyPerSecondVisit) *
-        (greenHostingData?.green
-          ? 50
-          : carbonIntensityData?.carbon_intensity || 0)
 
       return {
         url: input.url,

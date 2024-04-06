@@ -15,7 +15,9 @@ const GREEN_SERVER_INTENSITY = 50
 export const emissionsRouter = createTRPCRouter({
   getEmissions: publicProcedure
     .input(z.object({ url: z.string() }))
-    .mutation(async ({ input }) => {
+    .mutation(async ({ input, ctx }) => {
+      console.log('Client IP:', ctx.headers.get('x-forwarded-for'))
+
       console.log(await getIPAddressFromURL(input.url))
 
       if (!(await getIPAddressFromURL(input.url))) {
@@ -52,7 +54,7 @@ export const emissionsRouter = createTRPCRouter({
 
       if (greenHostingData)
         emissionResults.push({
-          category: 'Typ hostingu',
+          category: `Typ hostingu ${ctx.headers.get('x-forwarded-for') || ''}`,
           value: greenHostingData.green ? 'Udržateľný' : 'Nezistené',
           description: 'Typ zdroja energie z ktorého je aplikácia servovaná',
         })

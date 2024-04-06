@@ -33,7 +33,11 @@ export const emissionsRouter = createTRPCRouter({
       let clientCountry
       const clientIp = ctx.headers.get('x-forwarded-for')?.split(',')[0] || ''
       try {
-        clientCountry = await getCountryFromIpAddress(clientIp)
+        const clientCountryRes = await getCountryFromIpAddress(clientIp)
+
+        clientCountry = (await clientCountryRes?.json()) as
+          | { country_name: string }
+          | undefined
       } catch (e) {
         trackEvent('country_error', {
           error: e?.toString(),
@@ -75,7 +79,10 @@ export const emissionsRouter = createTRPCRouter({
               ? GREEN_SERVER_INTENSITY
               : carbonIntensityData.carbon_intensity.toFixed(2)
           } g/kWh`,
-          description: 'Ročná intenzita Co2 servera',
+          description:
+            'Ročná intenzita Co2 servera (' +
+            carbonIntensityData.country_name +
+            ')',
         })
 
         if (fossilShareData)
@@ -115,13 +122,11 @@ export const emissionsRouter = createTRPCRouter({
                   sizes,
                   greenHosting: greenHostingData?.green,
                   carbonIntensity: carbonIntensityData?.carbon_intensity,
+                  hostingCountry: carbonIntensityData?.country_name,
                   fossilShare: fossilShareData,
                   fossilShareFromAPI:
                     carbonIntensityData?.generation_from_fossil,
-                  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-                  clientCountry: clientCountry
-                    ? await clientCountry?.json()
-                    : null,
+                  clientCountry: clientCountry?.country_name,
                   clientIp: clientIp,
                 },
               ],

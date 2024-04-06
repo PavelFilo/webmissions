@@ -2,6 +2,7 @@ import { z } from 'zod'
 import { createTRPCRouter, publicProcedure } from '~/server/api/trpc'
 import {
   calculateHostingData,
+  getCountryFromIpAddress,
   getIPAddressFromURL,
 } from '~/utils/calculateHostingData'
 import { calculatePageSize } from '~/utils/calculatePageSize'
@@ -16,8 +17,6 @@ export const emissionsRouter = createTRPCRouter({
   getEmissions: publicProcedure
     .input(z.object({ url: z.string() }))
     .mutation(async ({ input, ctx }) => {
-      console.log('Client IP:', ctx.headers.get('x-forwarded-for'))
-
       console.log(await getIPAddressFromURL(input.url))
 
       if (!(await getIPAddressFromURL(input.url))) {
@@ -31,6 +30,15 @@ export const emissionsRouter = createTRPCRouter({
       trackEvent('calculation_start')
 
       const emissionResults = []
+      let clientCountry
+      const clientIp = ctx.headers.get('x-forwarded-for')?.split(',')[0] || ''
+      try {
+        clientCountry = await getCountryFromIpAddress(clientIp)
+      } catch (e) {
+        trackEvent('country_error', {
+          error: e?.toString(),
+        })
+      }
 
       const [
         sizes,
@@ -54,7 +62,7 @@ export const emissionsRouter = createTRPCRouter({
 
       if (greenHostingData)
         emissionResults.push({
-          category: `Typ hostingu ${ctx.headers.get('x-forwarded-for') || ''}`,
+          category: 'Typ hostingu',
           value: greenHostingData.green ? 'Udržateľný' : 'Nezistené',
           description: 'Typ zdroja energie z ktorého je aplikácia servovaná',
         })
@@ -110,6 +118,11 @@ export const emissionsRouter = createTRPCRouter({
                   fossilShare: fossilShareData,
                   fossilShareFromAPI:
                     carbonIntensityData?.generation_from_fossil,
+                  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+                  clientCountry: clientCountry
+                    ? await clientCountry?.json()
+                    : null,
+                  clientIp: clientIp,
                 },
               ],
             }),

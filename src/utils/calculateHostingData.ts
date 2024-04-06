@@ -77,12 +77,20 @@ const calculateCarbonIntensityFromIP = async (url: string) => {
   return intensityData
 }
 
+export const getCountryFromIpAddress = async (ipAddress: string) => {
+  if (ipAddress === '::1' || !ipAddress) return
+
+  {
+    return await fetch(
+      `http://api.ipstack.com/${ipAddress}?access_key=f66864527662e0b11ef8ae1048809b91`
+    )
+  }
+}
+
 const calculateFossilShareFromIP = async (url: string) => {
   const ipAddress = await getIPAddressFromURL(url)
 
-  const countryResponse = await fetch(
-    `http://api.ipstack.com/${ipAddress}?access_key=f66864527662e0b11ef8ae1048809b91`
-  )
+  const countryResponse = (await getCountryFromIpAddress(ipAddress))!
 
   const countryObj = (await countryResponse.json()) as ICountryResponse
 

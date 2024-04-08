@@ -34,10 +34,12 @@ export const EmissionsForm = ({
   return (
     <>
       <form
+        id="emissions-form"
         className="mx-auto flex w-full max-w-lg flex-shrink justify-center px-2 font-secondary"
         onSubmit={handleSubmit}
       >
         <input
+          id="emissions-input"
           className="w-2/3 rounded-l-lg border border-r-0 border-palette-light px-3
         focus:outline-none focus:ring-1 focus:ring-palette-primary"
           required
@@ -50,12 +52,13 @@ export const EmissionsForm = ({
         />
         <button
           type="submit"
+          id="submit-button"
           className={`
         ${isClicked ? 'opacity-75' : ''}
         rounded-r-lg border border-transparent bg-palette-primary py-3 px-4 text-sm font-semibold text-white hover:bg-palette-light focus:outline-none 
         focus-visible:ring-2 focus-visible:ring-palette-primary focus-visible:ring-offset-2 sm:text-base`}
         >
-          {isLoading ? <Spinner /> : 'Vypočítať'}
+          {isLoading ? <Spinner /> : <p id="calculate">Vypočítať</p>}
         </button>
       </form>
 

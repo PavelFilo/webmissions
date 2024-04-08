@@ -1,9 +1,17 @@
 import { env } from '~/env.mjs'
 import trackEvent from './mixpanel'
 
-interface IPageSizeResponse {
+type Coverage = {
+  cssTotalBytes: number
+  cssUsedBytes: number
+  jsTotalBytes: number
+  jsUsedBytes: number
+}
+
+type IPageSizeResponse = {
   firstLoad: number
   secondLoad: number
+  determinedCoverage?: Coverage
   message?: string
 }
 

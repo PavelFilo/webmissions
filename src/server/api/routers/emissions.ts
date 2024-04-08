@@ -52,7 +52,7 @@ export const emissionsRouter = createTRPCRouter({
         calculateHostingData(input.url),
       ])
 
-      if (sizes)
+      if (sizes) {
         emissionResults.push({
           category: 'Veľkosť (cached)',
           value: `${convertToMegaBytes(sizes.firstLoad).toFixed(
@@ -60,7 +60,22 @@ export const emissionsRouter = createTRPCRouter({
           )} MB (${convertToMegaBytes(sizes.secondLoad).toFixed(2)} MB)`,
           description: 'Veľkosť stránky v megabajtoch',
         })
-      else {
+        if (sizes.determinedCoverage) {
+          emissionResults.push({
+            category: 'Využitie kódu',
+            value: `${(
+              (sizes.determinedCoverage.cssUsedBytes /
+                sizes.determinedCoverage.cssTotalBytes) *
+              100
+            ).toFixed(1)} % CSS, ${(
+              (sizes.determinedCoverage.jsUsedBytes /
+                sizes.determinedCoverage.jsTotalBytes) *
+              100
+            ).toFixed(1)} % JS`,
+            description: 'Využitý kód CSS a JS na stránke',
+          })
+        }
+      } else {
         throw new Error('Nepodarilo sa získať veľkosť stránky!')
       }
 
@@ -128,6 +143,15 @@ export const emissionsRouter = createTRPCRouter({
                     carbonIntensityData?.generation_from_fossil,
                   clientCountry: clientCountry?.country_name,
                   clientIp: clientIp,
+                  determinedCoverage: sizes?.determinedCoverage,
+                  determinedCoverageCssPercentual: sizes?.determinedCoverage
+                    ? sizes.determinedCoverage.cssUsedBytes /
+                      sizes.determinedCoverage.cssTotalBytes
+                    : 0,
+                  determinedCoverageJsPercentual: sizes?.determinedCoverage
+                    ? sizes.determinedCoverage.jsUsedBytes /
+                      sizes.determinedCoverage.jsTotalBytes
+                    : 0,
                 },
               ],
             }),

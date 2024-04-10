@@ -17,9 +17,11 @@ export const emissionsRouter = createTRPCRouter({
   getEmissions: publicProcedure
     .input(z.object({ url: z.string() }))
     .mutation(async ({ input, ctx }) => {
-      console.log(await getIPAddressFromURL(input.url))
+      const ip = await getIPAddressFromURL(input.url)
+      console.log(ip)
+      if (ip) throw new Error('Aplikacia je momentalne pozastavena!')
 
-      if (!(await getIPAddressFromURL(input.url))) {
+      if (!ip) {
         return {
           url: input.url,
           total: 0,

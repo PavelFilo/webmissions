@@ -1,4 +1,5 @@
 import { z } from 'zod'
+import { env } from '~/env.mjs'
 import { createTRPCRouter, publicProcedure } from '~/server/api/trpc'
 import {
   calculateHostingData,
@@ -124,41 +125,37 @@ export const emissionsRouter = createTRPCRouter({
           : carbonIntensityData?.carbon_intensity || 0)
 
       try {
-        await fetch(
-          'https://dz41rvp7x4.execute-api.eu-north-1.amazonaws.com/test/results',
-          {
-            method: 'POST',
-            headers: {
-              'content-type': 'application/json',
-            },
-            body: JSON.stringify({
-              url: input.url,
-              total: totalEmissions,
-              categories: [
-                {
-                  sizes,
-                  greenHosting: greenHostingData?.green,
-                  carbonIntensity: carbonIntensityData?.carbon_intensity,
-                  hostingCountry: carbonIntensityData?.country_name,
-                  fossilShare: fossilShareData,
-                  fossilShareFromAPI:
-                    carbonIntensityData?.generation_from_fossil,
-                  clientCountry: clientCountry?.country_name,
-                  clientIp: clientIp,
-                  determinedCoverage: sizes?.determinedCoverage,
-                  determinedCoverageCssPercentual: sizes?.determinedCoverage
-                    ? sizes.determinedCoverage.cssUsedBytes /
-                      sizes.determinedCoverage.cssTotalBytes
-                    : 0,
-                  determinedCoverageJsPercentual: sizes?.determinedCoverage
-                    ? sizes.determinedCoverage.jsUsedBytes /
-                      sizes.determinedCoverage.jsTotalBytes
-                    : 0,
-                },
-              ],
-            }),
-          }
-        )
+        await fetch(env.NEXT_PUBLIC_DYNAMODB_URL, {
+          method: 'POST',
+          headers: {
+            'content-type': 'application/json',
+          },
+          body: JSON.stringify({
+            url: input.url,
+            total: totalEmissions,
+            categories: [
+              {
+                sizes,
+                greenHosting: greenHostingData?.green,
+                carbonIntensity: carbonIntensityData?.carbon_intensity,
+                hostingCountry: carbonIntensityData?.country_name,
+                fossilShare: fossilShareData,
+                fossilShareFromAPI: carbonIntensityData?.generation_from_fossil,
+                clientCountry: clientCountry?.country_name,
+                clientIp: clientIp,
+                determinedCoverage: sizes?.determinedCoverage,
+                determinedCoverageCssPercentual: sizes?.determinedCoverage
+                  ? sizes.determinedCoverage.cssUsedBytes /
+                    sizes.determinedCoverage.cssTotalBytes
+                  : 0,
+                determinedCoverageJsPercentual: sizes?.determinedCoverage
+                  ? sizes.determinedCoverage.jsUsedBytes /
+                    sizes.determinedCoverage.jsTotalBytes
+                  : 0,
+              },
+            ],
+          }),
+        })
       } catch (e) {
         trackEvent('db_push_error', {
           error: e?.toString(),

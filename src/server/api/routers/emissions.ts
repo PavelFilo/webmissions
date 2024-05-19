@@ -20,7 +20,7 @@ export const emissionsRouter = createTRPCRouter({
     .mutation(async ({ input, ctx }) => {
       const ip = await getIPAddressFromURL(input.url)
       console.log(ip)
-      if (ip) throw new Error('Aplikacia je momentalne pozastavena!')
+      // if (ip) throw new Error('Aplikacia je momentalne pozastavena!')
 
       if (!ip) {
         return {
